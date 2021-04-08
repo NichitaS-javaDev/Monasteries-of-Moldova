@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <title>Mănăstirea Curchi</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="curchi_style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <p>Mănăstirea Curchi </p>
+                <a href="gallery.html">Gallery</a>
+                <div class="dropdown">
+                    <button class="button">
+                        Menu <span id="pointer">▼</span>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="tipova.html">Mănăstirea Țipova</a>
+                        <a href="curchi.html">Mănăstirea Curchi</a>
+                    </div>
+                </div>
+                <a href="index.html">Home</a>
+            </div>
+        </header>
+
+        <img class="main_img" src="images/curchi-main-img.jpg">
+
+        <main>
+            <article>
+                <p>Mănăstirea Curchi este o mănăstire de călugări din Republica Moldova, una din cele mai însemnate monumente ale arhitecturii basarabene. Este situată în Codrii Orheiului, pe teritoriul satului Curchi, raionul Orhei. Ca ansamblu arhitectural s-a constituit în secolele XVIII – XIX. Este compusă din cinci biserici, două clădiri cu chilii, stăreție, mai multe încăperi auxiliare, o livadă, un schit cu arhondaric aflat la 500 m de Mănăstire.</p>
+                <p>Potrivit unor legende, Mănăstirea Curchi, a fost întemeiata de către Ştefan cel Mare, iar ca ansamblu arhitectural s-a format mai târziu, in veacurile XVIII-XIX. Dar această versiune este greu de verificat pentru că nu are un suport documentar. Cea mai plauzibilă versiune rămâne că Mănăstirea Curchi a fost întemeiată în anul 1773 de către fraţii Iordache şi Mihail Curchi, care la început au construit un modest schit din lemn, iar mai târziu au zidit primele biserici din piatră. Prima biserica fiind una din lemn, închinată Sfântului Mare Mucenic Dimitrie, construită în jurul anului 1775 de către Iordache Curchi, ctitor și primul stareț al schitului. Despre cei doi fraţi se ştie că au îmbrăţişat apoi viaţa monahicească, purtând numele de monah de Ioan şi, respectiv, Manasie.</p>
+                <p>La acel moment complexul era înconjurat de un zid înalt de piatră, cu turnuri la colturi. La 21 septembrie 1810 se sfințește prima biserică de piatra, în cinstea Nașterii Maicii Domnului cu o clopotniță înaltă in stil clasic, cu elemente baroce. În 1868 ea a fost transformată într-o mănăstire. Acest an este considerat data oficială a înființării templului. Biserica de iarna, închinată Sfântului Mare Mucenic Dimitrie, împreuna cu stăreția veche, au fost ridicate la 1884. De asemenea, construcția celui de al treilea templu în stil bizantin a fost planificată, dar biserica nu a fost finalizată.</p>
+                <p>Pe timpul când pe teritoriul Mănăstirii „Nașterea Maicii Domnului” din Curchi, s-a aflat spitalul psihiatric, cele 5 biserici ale complexului monahal, precum și edificiile care au servit cândva bunei desfășurări a unei vieți mănăstirești, au fost lăsate la voia întâmplării.</p>
+            </article>
+
+            <form>
+                <label class="form_title">>>>  Rezerveaza o Excursie Acum  >>></label><br>
+                <label>Nume :</label>
+                <input class="name" type="text" placeholder="Albu"><br>
+                <label>Prenume :</label>
+                <input type="text" placeholder="Ion" required><br>
+                <label>Numarul de persoane :</label>
+                <input type="radio" name="num" value="one">
+                <label>1</label>
+                <input type="radio" name="num" value="two">
+                <label>2</label>
+                <input type="radio" name="num" value="three">
+                <label>3+</label><br>
+                <label>Extra Optiuni :</label><br>
+                <input type="checkbox" value="foto" class="ch_box1">
+                <label>Sesiune foto</label><br>
+                <input type="checkbox" value="meal">
+                <label>Mancare inclusa</label><br>
+                <input type="checkbox" value="lux">
+                <label>Transport (LUX class)</label><br>
+                <input type="checkbox" value="video">
+                <label>Sesiune video</label><br>
+                <label>Selectati data :</label>
+                <input type="date" required value="2021-04-01"><br>
+                <label>Selectati ora :</label>
+                <input type="time" required><br>
+                <label>Email :</label>
+                <input type="email" placeholder="info@gmail.com"><br>
+                <label>Numarul de contact :</label>
+                <input type="tel" placeholder="069572560" pattern="[0]([6]|[7])[0-9]{7}" required><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+
+            <video controls poster="video/poster_2.jpg">
+                <source src="video/ManastireaCurchi.mp4" type="video/mp4">
+            </video>
+        </main>
+
+        <footer>
+            Copyright © 2021 | Nichita S
+        </footer>
+    </body>
+
+</html>

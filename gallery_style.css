@@ -1,0 +1,220 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+}
+
+main{
+    height: 1300px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.content-title-1{
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    background-color: black;
+}
+
+.content-title-1 p, .content-title-2 p{
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: oblique;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin: 10px 40% 10px 35%;
+    padding: 7px 10px 7px 45px;
+    border: 3px white dotted;
+    border-radius: 7px;
+    text-shadow: 3px 2px 5px white;
+}
+
+.content-title-2 p {
+    margin: 10px 35% 10px 40%;
+}
+
+.content-1{
+    position: absolute;
+    top: 5%;
+    height: 43%;
+    width: 100%;
+    background-color: black;
+}
+
+.content-title-2{
+    position: absolute;
+    top: 48%;
+    height: 5%;
+    width: 100%;
+    background-color: black;
+}
+
+.content-2{
+    position: absolute;
+    top: 53%;
+    height: 43%;
+    width: 100%;
+    background-color: black;
+}
+
+.line{
+    position: absolute;
+    top: 96%;
+    height: 4%;
+}
+
+img{
+    height: 100%;
+    margin-left: 10px;
+}
+
+.line img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line_1{
+    padding-top: 15px;
+    height: 35%;
+    width: 40%;
+    padding-left: 120px;
+}
+
+.line_2{
+    height: 35%;
+    width: 40%;
+    padding-left: 25px;
+    margin-top: -30px;
+}
+
+.line_3{
+    height: 35%;
+    width: 40%;
+    padding-left: 120px;
+    margin-top: -30px;
+}
+
+.video{
+    float: right;
+    margin: 7% 7% 7% 0;
+}
+
+video{
+    border: 3px solid white;
+    border-radius: 7px;
+}
+
+.content-title-1, .content-title-2{
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar img{
+    height: 40px;
+    width: 450px;
+    margin-left: 280px;
+}
+
+.navbar p {
+    float: left;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: oblique;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    font-size: 25px;
+    margin: 10px;
+    text-shadow: 4px 2px 5px white;
+
+}
+
+a, button{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    padding-right: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    text-shadow: 4px 2px 5px white;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .button {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 7px;
+}
+
+#pointer{
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #0c0c0c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 10px 0 15px 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: oblique;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px 5px white;
+}
