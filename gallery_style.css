@@ -199,6 +199,7 @@ a, button{
 
 .dropdown-content a:hover {
     background-color: #0c0c0c;
+    border-radius: 7px;
 }
 
 .dropdown:hover .dropdown-content {
